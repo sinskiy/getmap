@@ -21,6 +21,17 @@ const config = {
 				'tertiaryContainer': 'hsl(var(--color-tertiary-container) / <alpha-value>)',
 				'onTertiaryContainer': 'hsl(var(--color-on-tertiary-container) / <alpha-value>)',
 				'outline': 'hsl(var(--color-outline) / <alpha-value>)'
+			},
+			fontFamily: {
+				'roboto': ['Roboto', 'sans-serif']
+			},
+			spacing: {
+				'column': 'var(--column)',
+				'column2': 'calc(var(--column) * 2)',
+				'column3': 'calc(var(--column) * 3)',
+				'column4': 'calc(var(--column) * 4)',
+				'columnGap': 'var(--column-gap)',
+				'columnMargin': 'var(--column-margin)',
 			}
 		},
 	},

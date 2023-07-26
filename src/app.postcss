@@ -20,9 +20,19 @@
         --color-tertiary-container: 124deg 22% 25%;
         --color-on-tertiary-container: 115deg 47% 87%;
         --color-outline: 40deg 10% 55%;
+
+        --column-amount: 4;
+        --column-gap: 16px;
+        --column-margin: 16px;
+        --column:
+        calc(
+            (100vw - var(--column-margin) * 2) / 4
+        );
     }
 
     body {
         @apply bg-background;
+        @apply font-roboto;
+        @apply p-4;
     }
 }
