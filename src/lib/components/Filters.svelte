@@ -1,6 +1,6 @@
 <script>
     import { onMount } from 'svelte';
-    import Filter from "$lib/components/Filter.svelte";
+    import Filter from "./Filter.svelte";
     /**
      * @type string[]
      */
@@ -12,10 +12,8 @@
 
     onMount(() => {
         /**
-         * @type HTMLElement
+         * @type NodeListOf<Element>
          */
-        // @ts-ignore
-        const filters = document.querySelector(".FILTERS");
         const everyFilter = document.querySelectorAll(".FILTER");
         let isDragging = false;
 
@@ -38,7 +36,7 @@
     });
 </script>
 
-<div class="FILTERS my-5 flex flex-col gap-2 max-w-full absolute z-10 select-none overflow-x-hidden">
+<div class="my-5 flex flex-col gap-2 max-w-full select-none overflow-x-hidden">
     <Filter tags={universe}/>
     <Filter tags={places}/>
 </div>

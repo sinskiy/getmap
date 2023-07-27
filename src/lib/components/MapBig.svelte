@@ -1,0 +1,1 @@
+<img loading="lazy" src="963076cc1f2d17235d1b008512fa4fd2.png" alt="Big map" class="min-w-full h-auto mb-4">
