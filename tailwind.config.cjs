@@ -32,6 +32,9 @@ const config = {
 				'column4': 'calc(var(--column) * 4)',
 				'columnGap': 'var(--column-gap)',
 				'columnMargin': 'var(--column-margin)',
+			},
+			screens: {
+				desktop: {'raw': '(hover: hover)'}
 			}
 		},
 	},
