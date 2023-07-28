@@ -41,4 +41,32 @@
     body {
         @apply bg-background;
     }
+
+    input {
+        @apply outline-none;
+    }
+
+    button {
+        @apply rounded-full;
+        @apply text-sm;
+        @apply font-medium;
+    }
+
+    button.primary {
+        @apply bg-primary;
+        @apply text-onPrimary;
+        @apply p-2;
+    }
+
+    button.secondary {
+        @apply bg-secondaryContainer;
+        @apply text-onSecondaryContainer;
+        @apply p-2;
+    }
+
+    button.tertiary {
+        @apply bg-tertiaryContainer;
+        @apply text-onTertiaryContainer;
+        @apply p-2;
+    }
 }

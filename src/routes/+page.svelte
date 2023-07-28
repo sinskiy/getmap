@@ -1,9 +1,9 @@
 <script>
-    import NavTop from "$lib/components/NavTop.svelte";
+    import NavTopSearch from "$lib/components/NavTopSearch.svelte";
     import Filters from "$lib/components/Filters.svelte";
     import Feed from "$lib/components/Feed.svelte";
 </script>
 
-<NavTop />
+<NavTopSearch />
 <Filters />
 <Feed />

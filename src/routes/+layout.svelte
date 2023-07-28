@@ -8,7 +8,7 @@
     <link href="https://fonts.bunny.net/css?family=roboto:400,500,700" rel="stylesheet" />
 </svelte:head>
 
-<div class="p-4">
+<div class="p-4 min-w-full">
 	<slot />
 </div>
 <NavBottom />
